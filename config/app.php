@@ -175,6 +175,14 @@ return [
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
 
+<<<<<<< HEAD
+        /**
+         * Custom Service Providers..
+         */
+        App\Domain\Core\DomainServiceProvider::class
+
+=======
+>>>>>>> initial
     ],
 
     /*

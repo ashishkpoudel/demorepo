@@ -1,3 +1,20 @@
+<<<<<<< HEAD
+# Ocean Eye
+
+## Installation Steps
+
+* clone the repo : `git clone git@github.com:pagevamp/oceaneye-api.git [foldername]`
+* Goto project folder: `cd [foldername]`
+* set environment variable : `cp .env.example .env`, then change the environment variables to match your settings
+* Initialize docker: `sudo docker-compose up -d`
+* Open bash terminal inside container: `sudo docker exec -it api.oceaneye.pv /bin/bash`
+* Install dependencies: `composer install`
+* generate keys : `php artisan key:generate`
+* run seeder : `php artisan db:seed --class=LocalSeeder`, this command will automatically run your migration
+* create symbolic link from public/storage to storage/app/public : `php artisan storage:link`, this is required for accessing media files like images, videos, pdf, etc
+* Jump with joy!!
+* Get back to work
+=======
 <p align="center"><img src="https://res.cloudinary.com/dtfbvvkyp/image/upload/v1566331377/laravel-logolockup-cmyk-red.svg" width="400"></p>
 
 <p align="center">
@@ -76,3 +93,4 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+>>>>>>> initial

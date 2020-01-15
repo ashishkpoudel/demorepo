@@ -1,5 +1,10 @@
 <?php
 
+<<<<<<< HEAD
+use Illuminate\Support\Facades\Route;
+
+=======
+>>>>>>> initial
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -12,5 +17,9 @@
 */
 
 Route::get('/', function () {
+<<<<<<< HEAD
+    return '(^_-)';
+=======
     return view('welcome');
+>>>>>>> initial
 });

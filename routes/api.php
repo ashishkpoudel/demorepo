@@ -1,5 +1,9 @@
 <?php
 
+<<<<<<< HEAD
+use Illuminate\Support\Facades\Route;
+=======
+>>>>>>> initial
 use Illuminate\Http\Request;
 
 /*
@@ -16,3 +20,11 @@ use Illuminate\Http\Request;
 Route::middleware('auth:api')->get('/user', function (Request $request) {
     return $request->user();
 });
+<<<<<<< HEAD
+
+Route::get('demo', function() {
+   $user = \App\Domain\Accounts\Models\User::query()->first();
+   dd($user->isAdmin());
+});
+=======
+>>>>>>> initial
